@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    style="@style/padd">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/cardpreview">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/padd"
+
+    android:elevation="10dp"
+android:layout_gravity="center">
+    <TextView
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Please share your Suggestions/ grievances / feedback with us . We depend on you to help us to grow"/></androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/padd"
+        android:layout_gravity="center"><com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"/>
+    </com.google.android.material.textfield.TextInputLayout></androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/padd"
+    android:layout_gravity="center">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"/>
+    </com.google.android.material.textfield.TextInputLayout></androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/padd"
+        android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="select Category"
+            android:textColor="#000"
+            android:layout_weight="1"/>
+        <Spinner
+            android:background="@drawable/spview"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:id="@+id/spcontact"
+            android:layout_weight="1"></Spinner></LinearLayout></androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/padd"
+        android:layout_gravity="center">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Message"/>
+        </com.google.android.material.textfield.TextInputLayout></androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Submit"
+            android:padding="3dp"
+            android:background="@drawable/buttonsztaad"
+            android:textAllCaps="false"
+            android:layout_marginBottom="8dp"
+            android:textColor="#ffff"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView></LinearLayout>

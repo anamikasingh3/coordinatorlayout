@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/padd"
+    android:background="#fff"
+    android:layout_gravity="center"
+    android:elevation="10dp"
+    >
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="300dp"
+android:theme="@style/padd"
+        android:layout_gravity="center"
+        android:id="@+id/rvcityztaad"
+        android:layout_height="match_parent" />
+</LinearLayout>
